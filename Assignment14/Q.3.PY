@@ -1,0 +1,10 @@
+# Q3
+arr = np.random.randint(20, 81, (4,5))
+print(arr)
+print("Min:", arr.min())
+print("Max:", arr.max())
+print("Sum:", arr.sum())
+print("Mean:", arr.mean())
+print("Std:", arr.std())
+print("Row Sum:", arr.sum(axis=1))
+print("Column Sum:", arr.sum(axis=0))
